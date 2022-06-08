@@ -1,0 +1,17 @@
+@import "../../_base.scss";
+
+.homeScreen {
+  background-color: $black-secondary;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+
+  .home-wrapper {
+    padding-top: 4.5rem;
+  }
+}
+@media (max-width: $breakpoint-large) {
+  .homeScreen {
+    max-width: 100% !important;
+  }
+}

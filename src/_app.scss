@@ -1,0 +1,13 @@
+@import "./_base.scss";
+
+.app__container {
+  display: flex;
+  margin-top: 10vh;
+
+}
+.app__main{
+  padding: 0 !important;
+  .row{
+    margin: 0;
+  }
+}

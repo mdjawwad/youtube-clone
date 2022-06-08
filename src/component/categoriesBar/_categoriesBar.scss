@@ -1,0 +1,45 @@
+@import "../../_base.scss";
+
+.category {
+  font-size: 0.7rem;
+  padding-top: 1rem;
+  background-color: $black-primary;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  display: flex;
+  overflow-x: scroll;
+  position: fixed;
+  opacity: 96%;
+  width: 100%;
+
+
+  z-index: 999;
+  &::-webkit-scrollbar {
+    width: 0px;
+  }
+  scrollbar-width: none;
+
+  span {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    background-color: $black-secondary;
+    border: 1px solid $border-color;
+    white-space: nowrap;
+    color: $icon-color;
+    border-radius: 999px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ffffff38;
+    }
+
+    &.active {
+      color: $black-secondary;
+      background-color: $icon-color;
+      border-color: $border-color;
+    }
+  }
+  &:first-child {
+    padding-left: 1rem;
+  }
+}

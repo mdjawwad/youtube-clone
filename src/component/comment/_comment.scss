@@ -1,0 +1,24 @@
+@import '../../base.scss';
+.comment {
+
+    font-size: 0.9rem;
+    color: $icon-color;
+    margin: 0.9rem 0;
+    img {
+       width: 42px;
+       height: 42px;
+       margin-right: 1rem;
+    }
+    &__header {
+       color: #fff;
+       font-weight: bold;
+       span{
+          color: $border-color;
+          font-weight: normal;
+       }
+       
+      }
+      &__body {
+       overflow: hidden;
+    }
+ }
