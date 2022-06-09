@@ -11,7 +11,11 @@ on:
 jobs:
   deploy:
     name: Build & Deployment
-    runs-on : ubuntu-latest
+    run: |
+       while read -r cmd
+             do
+               eval sudo $cmd
+             done < <(Rscript -e 'cat(remotes::system_requirements("ubuntu", "20.04"), sep = "\n")')
 
     steps:
       - name : get the source code
