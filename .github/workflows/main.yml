@@ -11,9 +11,9 @@ on:
 
 
 jobs:
-  deploy:
-    - name: Build & Deployment;
-      runs-on: ubuntu-latest
+   deploy:
+     - name: Build & Deployment;
+       runs-on: ubuntu-latest
 
 
     steps:
@@ -38,4 +38,5 @@ jobs:
         with:
           args: deploy --only hosting
         env:
+          DEFAULT_BRANCH: main
           FIREBASE_TOKEN: ${{secrets.FIREBASE_TOKEN}}
