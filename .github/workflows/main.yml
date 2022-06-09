@@ -5,14 +5,9 @@ on:
       - main
 
 
-
-
-
-
-
 jobs:
-   deploy:
-     - name: Build & Deployment;
+    deploy:
+      - name: Build & Deployment;
        runs-on: ubuntu-latest
 
 
