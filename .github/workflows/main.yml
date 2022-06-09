@@ -11,8 +11,7 @@ on:
 jobs:
   deploy:
     name: Build & Deployment
-    runs-on : |
-          ubuntu-latest
+    runs-on : ubuntu-latest
 
     steps:
       - name : get the source code
@@ -24,12 +23,10 @@ jobs:
             node-version: '12'
 
       - name : install node packages
-        run: |
-           npm i
+        run: npm i
 
       - name : Build
-        run: |
-           npm run build
+        run: npm run build
         env:
           CI: false
       
