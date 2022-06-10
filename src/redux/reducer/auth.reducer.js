@@ -4,7 +4,7 @@ import {
   LOGIN_OUT,
   LOGIN_REQUEST,
   LOGIN_SUCCESS,
-} from "/home/jawwad/yt-clone/src/redux/actionType.js";
+} from "../actionType";
 
 const initialState = {
   accessToken: sessionStorage.getItem("ytc-access-token")

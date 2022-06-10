@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, combineReducers } from "redux";
 import { composeWithDevTools } from "redux-devtools-extension";
-import { authReducer } from "/home/jawwad/yt-clone/src/redux/reducer/auth.reducer.js";
+import { authReducer } from "../redux/reducer/auth.reducer";
 import thunk from "redux-thunk";
 import {
   channelVideosReducer,
