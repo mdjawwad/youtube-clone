@@ -1,5 +1,3 @@
-
-  
 name : Firebase Deployment
 
 
@@ -25,7 +23,7 @@ jobs:
       - name : install node packages
         run: npm i
 
-      - name : Build
+      - name: Build
         run: npm run build
         env:
           CI: false

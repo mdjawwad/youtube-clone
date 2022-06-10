@@ -1,5 +1,5 @@
 import { Col, Container } from "react-bootstrap";
-import "/home/jawwad/yt-clone/src/screen/homeScreen/__homescreen.scss";
+import "./__homescreen.scss";
 import CategoriesBar from "../../component/categoriesBar/CategoriesBar";
 import Video from "../../component/video/Video";
 import { useDispatch, useSelector } from "react-redux";
