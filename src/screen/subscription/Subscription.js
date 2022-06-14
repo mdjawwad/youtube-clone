@@ -23,7 +23,7 @@ const Subscription = () => {
           <VideoHorizontal
              video={video}
              key={video.id}
-             subScreen
+             subScreen 
           />
        ))
     ) : (

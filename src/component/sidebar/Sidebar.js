@@ -29,14 +29,12 @@ function Sidebar({ sidebar, handleToggleSidebar }) {
           <span> Home </span>
         </li>
       </Link>
-<Link to='/feed/subscription'>
-
-
-      <li>
-        <MdSubscriptions size={28} />
-        <span>Subscriptions</span>
-      </li>
-</Link>
+      <Link to="/feed/subscription">
+        <li>
+          <MdSubscriptions size={28} />
+          <span>Subscriptions</span>
+        </li>
+      </Link>
       <li>
         <MdThumbUp size={28} />
         <span>Liked Video</span>
